@@ -1,0 +1,21 @@
+{
+  "name": "sovereign-agent-bridge",
+  "version": "1.0.0",
+  "description": "Multi-Agent Bridge Protocol, Dialectic Consensus, Claim Mutex & MCP Bridge Workstation",
+  "main": "electron/main.cjs",
+  "bin": {
+    "sovereign-bridge": "./bin/sovereign-bridge.js"
+  },
+  "scripts": {
+    "start": "electron .",
+    "desktop": "electron .",
+    "web": "node bin/sovereign-bridge.js web",
+    "cli": "node bin/sovereign-bridge.js",
+    "test": "pytest tests/"
+  },
+  "author": "Zoth Core Intelligence",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^34.5.8"
+  }
+}

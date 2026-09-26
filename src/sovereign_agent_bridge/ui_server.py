@@ -1019,7 +1019,7 @@ class BridgeUIServer:
     def __init__(
         self,
         host: str = "127.0.0.1",
-        port: int = 8765,
+        port: int = 8102,
         router: Optional[Any] = None,
         consensus_engine: Optional[Any] = None,
         claim_manager: Optional[Any] = None,
@@ -1119,7 +1119,7 @@ class BridgeUIServer:
 
 def start_ui_server(
     host: str = "127.0.0.1",
-    port: int = 8765,
+    port: int = 8102,
     router: Optional[Any] = None,
     consensus_engine: Optional[Any] = None,
     claim_manager: Optional[Any] = None,

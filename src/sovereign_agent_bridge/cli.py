@@ -1239,7 +1239,7 @@ def build_parser() -> argparse.ArgumentParser:
     # serve
     p_serve = subparsers.add_parser("serve", parents=[common_parent], help="Launch Bridge Studio Web UI (design influenced by Material 3).")
     p_serve.add_argument("--host", default="127.0.0.1", help="Host address (default: 127.0.0.1).")
-    p_serve.add_argument("-p", "--port", type=int, default=8788, help="Port to bind (default: 8788).")
+    p_serve.add_argument("-p", "--port", type=int, default=8102, help="Port to bind (default: 8102).")
     p_serve.add_argument("--public-dir", help="Path to static web assets directory.")
 
     # resilience / circuits

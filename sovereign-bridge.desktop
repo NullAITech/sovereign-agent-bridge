@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sovereign Agent Bridge
+GenericName=Inter-Agent Consensus & Gateway Workstation
+Comment=Pure Python Dialectic Consensus Engine, Claim Mutex, Dead-Man Watchdog & MCP Gateway
+Exec=/usr/local/bin/sovereign-bridge desktop
+Icon=/media/neo/f2fdda77-178b-4603-ae80-c7aa4cd97908/zoth-micro-repos/sovereign-agent-bridge/assets/icon.png
+Terminal=false
+Categories=Development;System;Network;Utility;
+StartupNotify=true
+Actions=CLI;Web;
+
+[Desktop Action CLI]
+Name=Open Sovereign Bridge CLI
+Exec=x-terminal-emulator -e "/usr/local/bin/sovereign-bridge --help"
+
+[Desktop Action Web]
+Name=Open Web UI (Port 8102)
+Exec=/usr/local/bin/sovereign-bridge web
